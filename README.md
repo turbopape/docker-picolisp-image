@@ -6,13 +6,13 @@ distribution.
 to use it, pull the Dockerfile image:
 
 ```
-docker pull docker-picolisp-image
+docker pull docker-picolisp
 ```
 
 Then run it using a volume to persist your work:
 
 ```
-alias pil='docker run -v ~/work:/usr/local/work -it docker-picolip-image'
+alias pil='docker run -v ~/work:/usr/local/work -it docker-picolisp'
 pil
 ```
 I will try to stay on par with picoLisp releases.
