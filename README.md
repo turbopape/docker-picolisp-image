@@ -6,7 +6,7 @@ distribution.
 to use it, pull the Dockerfile image:
 
 ```
-docker pull docker-picolisp
+docker pull turbopape/docker-picolisp
 ```
 
 Then run it using a volume to persist your work:
